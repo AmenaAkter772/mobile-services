@@ -1,0 +1,18 @@
+.serviceCard{
+    transition: background 2s;
+    box-shadow: 0 0 10px gray;
+}
+.serviceCard:hover{
+    background: #FF5733 ;
+    color: white;
+}
+.serviceCard:hover .icon{
+    color: white;
+}
+.serviceCard:hover .serviceText{
+    border-left: 5px solid white;
+    padding-left: 10px;
+}
+.icon{
+    color: #FF5733 ;
+}

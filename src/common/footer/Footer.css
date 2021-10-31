@@ -1,0 +1,23 @@
+.footerMain{
+    background-image: url('http://fixtech.themetechmount.com/wp-content/uploads/2019/03/service-one-720x544.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+}
+.footerMain::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: .9;
+    z-index: -1;
+
+}
+.footerHover:hover{
+ color: #FF5733;
+ cursor: pointer;
+}
